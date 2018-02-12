@@ -1,6 +1,6 @@
 body {
-	background: #3e444f;
-	font-family: calibri;
+	background: rgb(63,63,67);
+	font-family: sans-serif;
 	padding-bottom: 60px;
 
 }
@@ -15,7 +15,7 @@ img {
 }
 
 nav {
-	font-family: calibri;
+	font-family: sans-serif;
 	font-style: bold;
 	font-size: 72;
 }
