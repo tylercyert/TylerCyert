@@ -54,13 +54,24 @@ body {
 .tContent {
     text-align: left;
     display: none;
-    padding: 6px 12px;
+    padding: 12px 12px;
     border: 1px solid #ccc;
     border-top: none;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
     background-color: #efefef;
 
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 @-webkit-keyframes fadeEffect {
     from {opacity: 0;}
