@@ -1,0 +1,84 @@
+/* Style the tab */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+h1 {
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+body {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    font-family: "Oswald";
+}
+
+#aboutImg {
+    float: right;
+    padding: 0px 15px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    *background-color: #f1f1f1;*/
+    height: 100%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    font-family: "Oswald";
+    background-color: #efefef;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 33.333333333%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+.tContent {
+    text-align: left;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    background-color: #efefef;
+
+}
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    margin-top: 3em;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+

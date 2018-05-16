@@ -1,63 +1,69 @@
-<!doctype html>
-<html>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="main.css">
+<!DOCTYPE HTML>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+	<h1><em>Tyler Cyert</em></h1>
+	<h3 id="subheader"><em>Aspiring software engineer and web developer</em></h3> 
+</head>
 
-	<head>
-		<title>
-			Tyler Cyert
-		</title>
-		<link rel="icon" href="logo2.png">
-		<!-- Image and text -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<img src="logo2.png"  style="width:60px;height:60px;">
-			  <a class="navbar-brand" href="index.html">Tyler Cyert</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-			    <ul class="navbar-nav">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Blog</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">About Me</a>
-			      </li>
-			      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          More
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="my_code.html">Coding Projects</a>
-			          <a class="dropdown-item" href="my_music.html">Music</a>
-			          <a class="dropdown-item" href="#">Photagraphy</a>
-			        </div>
-			      </li>
-			    </ul>
-			  </div>
-		</nav>
+<body>
+	<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About Me</button>
+  <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
+  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
 
+<div id="About" class="tContent">
+  <h2>About Me</h2>
+  <img src="media/tyler.jpg" width="auto" height="300" align="right" id="aboutImg">
+  <h3>An Introduction</h3>
+  <p>My name is Tyler Cyert. I am an aspiring Software Engineer, with 2+ years of leadership experience looking for Software Engineering Positions. I possess strong communication and technical abilities that can aid in rapid development of a variety of software systems.</p>
+  <h3>My Interests</h3>
+  <p>I always take advange of my free time through my various hobbies. I enjoy taking utilizing playforms like YouTube, Lynda, and my higher education to support my personal and work interests alike. I've developed a variety of skills through these platforms including...  <ul>
+  	<li>Object oriented programing languages (Java, C#, C++, Python)</li>
+ 	<li>Development methodologies (Agile Development, Rapid Development, Extreme Programing, etc)
+  	<li>Web development (HTML, CSS, and JavaScript)</li>
+  	<li>Video editing</li>
+  	<li>Graphic design</li>
+  	<li>Music production and audio mastering</li>
+  	<li>Music theory</li>
+  	<li>Sound design</li>
+  	<li>and much more to come!</li>
+  </ul>
+  </p>
+</p>
+</div>
 
-	</head>
+<div id="Resume" class="tContent">
+  <h2>Resume</h2>
+  <object width=100% height=1150px data="media/TylerCyert.pdf"></object>
+</div>
 
-		<div class="container">
-			<a href="my_code.html"><img src="code.png" onmouseover="this.src='codeGS.png'" onmouseout="this.src='code.png'" height="auto" width="50%"/></a>
-	 		<a href="my_music.html"><img src="music.png" onmouseover="this.src='musicGS.png'" onmouseout="this.src='music.png'" height="auto" width="50%"/></a>
-			<a href="#"><img src="photo.png" onmouseover="this.src='photoGS.png'" onmouseout="this.src='photo.png'" height="auto" width="100%" /></a>
-		</div>	
+<div id="Contact" class="tContent">
+  <h2>Contact</h2>
+  <p>Feel free to contact me with any job offers or if you would like to know more about me.</p>
+  <h3>Social Media</h3>
+  <a href="https://www.linkedin.com/in/tyler-cyert/">linkedIn</a>
+  <h3>Email</h3>
+	<a href="mailto:tcyert@live.com">TCyert@live.com</a> 
+</div>
 
-		
-
-	<footer>
-		© 2018 Tyler Cyert
-	</footer>
-
-	<!--bootstrap js-->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
+<script>
+function openTab(evt, tab) {
+    var i, tContent, tablinks;
+    tContent = document.getElementsByClassName("tContent");
+    for (i = 0; i < tContent.length; i++) {
+        tContent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tab).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+<footer>&copy; Copyright 2018 Tyler Cyert</footer>
 </html>
